@@ -15,7 +15,7 @@ if( !defined('EVO_MAIN_INIT') ) die( 'Please, do not access this page directly.'
  */
 class mystique_Skin extends Skin
 {
-	var $version = '2.0.5';
+	var $version = '2.1.0';
 	
 	
 	/**
@@ -139,13 +139,6 @@ class mystique_Skin extends Skin
 				'label' => $this->T_('Recent comments'),
 				'note' => $this->T_('The number of recent comments'),
 				'defaultvalue' => 6,
-				'type' => 'integer',
-				'size' => 3,
-			),
-			'display_popular' => array(
-				'label' => $this->T_('Popular posts'),
-				'note' => $this->T_('The number of popular posts'),
-				'defaultvalue' => 10,
 				'type' => 'integer',
 				'size' => 3,
 			),
@@ -488,35 +481,6 @@ class mystique_Skin extends Skin
 		return;
 	}
 	
-	
-	function display_list_popular( $limit = 10 )
-	{
-		global $Blog;
-		
-		$PopularList = new ItemList2( $Blog, NULL, 'now', $limit );
-		$PopularList->set_filters( array(
-				'order'			=>	'DESC',
-				'unit'			=>	'posts',
-				'types'			=>	'1',
-				'orderby'		=>	'views',
-			), false ); // Don't memorize settings
-		
-		// Run the query:
-		$PopularList->query();
-		
-		if( $PopularList->result_num_rows != 0 )
-		{
-			while( $pItem = & $PopularList->get_item() )
-			{
-				echo '<li><a class="fadeThis" href="'.$pItem->get_permanent_url().
-						'"><span class="entry">'.strmaxlen($pItem->title, 36).
-						' <span class="details inline">('.$pItem->views.
-						')</span></span></a></li>';
-			}
-		}
-	}
-	
-	
 	function display_list_archives( $limit = 12 )
 	{
 		global $Plugins;
@@ -595,8 +559,6 @@ class mystique_Skin extends Skin
               	<?php
                 echo '<li class="recentcomm"><a href="#instance-sidebartabswidget-section-recentcomments"
 							title="'.$this->T_('Recent comments').'"><span>'.$this->T_('Recent comments').'</span></a></li>
-                		<li class="popular"><a href="#instance-sidebartabswidget-section-popular"
-							title="'.$this->T_('Popular posts').'"><span>'.$this->T_('Popular posts').'</span></a></li>
                 		<li class="archives"><a href="#instance-sidebartabswidget-section-archives"
 							title="'.$this->T_('Archives').'"><span>'.$this->T_('Archives').'</span></a></li>
                 		<li class="tags"><a href="#instance-sidebartabswidget-section-tags"
@@ -648,14 +610,6 @@ class mystique_Skin extends Skin
                     </div>
                   </div>
                 </div>
-                <div class="box section" id="instance-sidebartabswidget-section-popular">
-                  <div class="box-top-left"><div class="box-top-right"></div></div>
-                  <div class="box-main">
-                    <div class="box-content">
-                      <ul class="menuList"><?php $this->display_list_popular( $this->get_setting('display_popular') ); ?></ul>
-                    </div>
-                  </div>
-                </div>
                 <div class="box section" id="instance-sidebartabswidget-section-recentcomments">
                   <div class="box-top-left"><div class="box-top-right"></div></div>
                   <div class="box-main">
@@ -679,7 +633,7 @@ class mystique_Skin extends Skin
 		global $Blog;
 		
 		echo '<div id="copyright"><div><a class="rss-subscribe" href="'.
-				$Blog->get( 'rss2_url', 'raw' ).'" title="RSS Feeds">RSS Feed</a>
+				$Blog->get( 'rss2_url' ).'" title="RSS Feeds">RSS Feed</a>
 				'.$this->get_links().'
 				<a id="goTop" class="js-link" name="goTop">Top</a></div>
 				<div class="credits">Original Mystique theme by <a href="http://digitalnature.ro">digitalnature</a> |

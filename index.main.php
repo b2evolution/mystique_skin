@@ -37,7 +37,7 @@ global $s, $ReqURI;
 			{
 				$blog_name = '<img src="'.$blog_name.'" alt="'.$Blog->get('name').'" />';
 			}
-			echo '<h1 id="logo"><a href="'.$Blog->get( 'url', 'raw' ).'">'.$blog_name.'</a></h1>';
+			echo '<h1 id="logo"><a href="'.$Blog->get( 'url' ).'">'.$blog_name.'</a></h1>';
 		}
 		
 		if( $Skin->get_setting('blog_tagline') )
@@ -61,7 +61,7 @@ global $s, $ReqURI;
         <div class="shadow-right clearfix">
           <p class="nav-extra">
 			<?php
-			echo '<a href="'.$Blog->get( 'rss2_url', 'raw' ).'" class="nav-extra" title="'.$Skin->T_('View RSS Feed').'"></a>';
+			echo '<a href="'.$Blog->get( 'rss2_url' ).'" class="nav-extra" title="'.$Skin->T_('View RSS Feed').'"></a>';
 			
 			if( $soc_user = $Skin->get_setting('twitter_user') )
 			{
@@ -94,7 +94,7 @@ global $s, $ReqURI;
             <?php
 			
 			// Home page link
-			echo '<li class="home active"><a class="home fadeThis active" href="'.$Blog->get( 'url', 'raw' ).
+			echo '<li class="home active"><a class="home fadeThis active" href="'.$Blog->get( 'url' ).
 					'"><span class="title">'.$Skin->T_('Home').'</span></a></li>';
 			
 			// "Menu" CONTAINER EMBEDDED HERE
