@@ -46,30 +46,140 @@ class mystique_Skin extends Skin
 	function get_param_definitions( $params )
 	{
 		global $Blog, $app_version;
-		 global $skins_url;
-		
+		global $skins_url;
+
 		if( !$twitter_name = $Blog->get_setting('twitter_username') )
 		{
 			$twitter_name = '';
 		}
 		
-		$set = array(
-			'blog_name' => array(
-				'label' => $this->T_('Blog title'),
-				'note' => $this->T_('Enter image URL to display a logo'),
-				'defaultvalue' => $Blog->get('name'),
-				'type' => 'text',
-				'size' => 50,
+		$set1 = array(
+			'section_general_start' => array(
+				'layout' => 'begin_fieldset',
+				'label'  => T_('General Settings')
 			),
-			'blog_tagline' => array(
-				'label' => $this->T_('Blog tagline'),
-				'defaultvalue' => $Blog->get('tagline'),
-				'type' => 'text',
-				'size' => 50,
-			),
-			'1_end' => array(
+				'blog_name' => array(
+					'label' => $this->T_('Blog title'),
+					'note' => $this->T_('Enter image URL to display a logo'),
+					'defaultvalue' => $Blog->get('name'),
+					'type' => 'text',
+					'size' => 50,
+				),
+				'blog_tagline' => array(
+					'label' => $this->T_('Blog tagline'),
+					'defaultvalue' => $Blog->get('tagline'),
+					'type' => 'text',
+					'size' => 50,
+				),
+			'section_general_end' => array(
 				'layout' => 'end_fieldset',
 			),
+
+			'section_colorbox_start' => array(
+					'layout' => 'begin_fieldset',
+					'label'  => T_('Colorbox Image Zoom')
+				),
+					'colorbox' => array(
+						'label' => T_('Colorbox Image Zoom'),
+						'note' => T_('Check to enable javascript zooming on images (using the colorbox script)'),
+						'defaultvalue' => 1,
+						'type' => 'checkbox',
+					),
+					'colorbox_vote_post' => array(
+						'label' => T_('Voting on Post Images'),
+						'note' => T_('Check this to enable AJAX voting buttons in the colorbox zoom view'),
+						'defaultvalue' => 1,
+						'type' => 'checkbox',
+					),
+					'colorbox_vote_post_numbers' => array(
+						'label' => T_('Display Votes'),
+						'note' => T_('Check to display number of likes and dislikes'),
+						'defaultvalue' => 1,
+						'type' => 'checkbox',
+					),
+					'colorbox_vote_comment' => array(
+						'label' => T_('Voting on Comment Images'),
+						'note' => T_('Check this to enable AJAX voting buttons in the colorbox zoom view'),
+						'defaultvalue' => 1,
+						'type' => 'checkbox',
+					),
+					'colorbox_vote_comment_numbers' => array(
+						'label' => T_('Display Votes'),
+						'note' => T_('Check to display number of likes and dislikes'),
+						'defaultvalue' => 1,
+						'type' => 'checkbox',
+					),
+					'colorbox_vote_user' => array(
+						'label' => T_('Voting on User Images'),
+						'note' => T_('Check this to enable AJAX voting buttons in the colorbox zoom view'),
+						'defaultvalue' => 1,
+						'type' => 'checkbox',
+					),
+					'colorbox_vote_user_numbers' => array(
+						'label' => T_('Display Votes'),
+						'note' => T_('Check to display number of likes and dislikes'),
+						'defaultvalue' => 1,
+						'type' => 'checkbox',
+					),
+			'section_colorbox_end' => array(
+				'layout' => 'end_fieldset',
+			),
+
+			'section_username_start' => array(
+				'layout' => 'begin_fieldset',
+				'label'  => T_('Username options')
+			),
+				'gender_colored' => array(
+					'label' => T_('Display gender'),
+					'note' => T_('Use colored usernames to differentiate men & women.'),
+					'defaultvalue' => 0,
+					'type' => 'checkbox',
+				),
+				'bubbletip' => array(
+					'label' => T_('Username bubble tips'),
+					'note' => T_('Check to enable bubble tips on usernames'),
+					'defaultvalue' => 0,
+					'type' => 'checkbox',
+				),
+				'autocomplete_usernames' => array(
+					'label' => T_('Autocomplete usernames'),
+					'note' => T_('Check to enable auto-completion of usernames entered after a "@" sign in the comment forms'),
+					'defaultvalue' => 1,
+					'type' => 'checkbox',
+				),
+			'section_username_end' => array(
+				'layout' => 'end_fieldset',
+			),
+		);
+
+		if ( version_compare( $app_version, '6.0', '>=' ) )
+		{ // We need this due to 'checklist' fields are available starting with version 6.
+			$set2 = array(
+				'section_access_start' => array(
+					'layout' => 'begin_fieldset',
+					'label'  => T_('When access is denied or requires login...')
+				),
+					'access_login_containers' => array(
+						'label' => T_('Display on login screen'),
+						'note' => '',
+						'type' => 'checklist',
+						'options' => array(
+							array( 'header',   sprintf( T_('"%s" container'), NT_('Header') ),    1 ),
+							array( 'page_top', sprintf( T_('"%s" container'), NT_('Page Top') ),  1 ),
+							array( 'menu',     sprintf( T_('"%s" container'), NT_('Menu') ),      0 ),
+							array( 'sidebar',  sprintf( T_('"%s" container'), NT_('Sidebar') ),   0 ),
+							array( 'sidebar2', sprintf( T_('"%s" container'), NT_('Sidebar 2') ), 0 ),
+							array( 'footer',   sprintf( T_('"%s" container'), NT_('Footer') ),    1 ) ),
+						),
+				'section_access_end' => array(
+					'layout' => 'end_fieldset',
+				),
+			);
+
+			$set1 = array_merge($set1, $set2);
+		}
+
+		$set3 = array(
 			'2_start' => array(
 				'layout' => 'begin_fieldset',
 				'label' => $this->T_('Layout'),
@@ -268,6 +378,8 @@ class mystique_Skin extends Skin
 				'size' => 40,
 			),
 		);
+
+		$set = array_merge($set1, $set3);
 		
 		if( version_compare($app_version, '4') && ($res = $this->check_updates()) )
 		{	// Check for updates in b2evo v4 and up
