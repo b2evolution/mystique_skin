@@ -1,0 +1,650 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Francois PLANQUE
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: http://fplanque.net/\n"
+"POT-Creation-Date: 2014-10-01 06:34+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../_item_block.inc.php:99
+msgid "Posted by"
+msgstr ""
+
+#: ../../../_item_block.inc.php:105
+msgid "in"
+msgstr ""
+
+#: ../../../_item_block.inc.php:118
+msgid "No comments"
+msgstr ""
+
+#: ../../../_item_block.inc.php:122
+msgid "comment"
+msgstr ""
+
+#: ../../../_item_block.inc.php:122
+msgid "comments"
+msgstr ""
+
+#: ../../../_item_block.inc.php:137
+#: ../../../_skin.class.php:161
+#: ../../../_skin.class.php:604
+#: ../../../a_skin.class.php:159
+#: ../../../a_skin.class.php:571
+#: ../../../mess_skin.class.php:159
+#: ../../../mess_skin.class.php:571
+msgid "Tags"
+msgstr ""
+
+#: ../../../_item_block.inc.php:147
+#: ../../../_skin.class.php:606
+#: ../../../a_skin.class.php:573
+#: ../../../mess_skin.class.php:573
+msgid "Categories"
+msgstr ""
+
+#: ../../../_item_block.inc.php:161
+msgid "Print article"
+msgstr ""
+
+#: ../../../_item_block.inc.php:164
+#, php-format
+msgid "This %1$s was posted by %2$s on %3$s at %4$s. Follow any responses to this post through %5$s."
+msgstr ""
+
+#: ../../../_item_block.inc.php:165
+msgid "entry"
+msgstr ""
+
+#: ../../../_item_block.inc.php:166
+msgid "Posts by"
+msgstr ""
+
+#: ../../../_item_block.inc.php:182
+msgid "Post bottom"
+msgstr ""
+
+#: ../../../_item_comment.inc.php:46
+msgid "Trackback"
+msgstr ""
+
+#: ../../../_item_comment.inc.php:46
+#: ../../../_item_comment.inc.php:50
+#: ../../../_item_comment.inc.php:54
+#: ../../../_item_comment.inc.php:65
+msgid "from:"
+msgstr ""
+
+#: ../../../_item_comment.inc.php:50
+msgid "Pingback"
+msgstr ""
+
+#: ../../../_item_comment.inc.php:54
+msgid "Linkback"
+msgstr ""
+
+#: ../../../_item_comment.inc.php:60
+msgid "PREVIEW Comment from:"
+msgstr ""
+
+#: ../../../_item_comment.inc.php:65
+msgid "Comment"
+msgstr ""
+
+#: ../../../_item_comment.inc.php:83
+msgid "Send email to comment author"
+msgstr ""
+
+#: ../../../_item_feedback.inc.php:75
+msgid "Attending this event"
+msgstr ""
+
+#: ../../../_item_feedback.inc.php:104
+msgid "Related Links"
+msgstr ""
+
+#: ../../../_item_feedback.inc.php:108
+msgid "Related Posts"
+msgstr ""
+
+#: ../../../_item_feedback.inc.php:145
+msgid "Trackbacks"
+msgstr ""
+
+#: ../../../_item_feedback.inc.php:151
+msgid "Comments"
+msgstr ""
+
+#: ../../../_item_feedback.inc.php:191
+msgid "Feedback awaiting moderation"
+msgstr ""
+
+#: ../../../_item_feedback.inc.php:199
+msgid "No feedback yet"
+msgstr ""
+
+#: ../../../_item_feedback.inc.php:214
+#, php-format
+msgid "This post has 1 feedback awaiting moderation... %s"
+msgstr ""
+
+#: ../../../_item_feedback.inc.php:215
+#, php-format
+msgid "This post has %d feedbacks awaiting moderation... %s"
+msgstr ""
+
+#: ../../../_item_feedback.inc.php:234
+msgid "Trackback address for this post"
+msgstr ""
+
+#: ../../../_skin.class.php:59
+#: ../../../a_skin.class.php:57
+#: ../../../mess_skin.class.php:57
+msgid "Blog title"
+msgstr ""
+
+#: ../../../_skin.class.php:60
+#: ../../../a_skin.class.php:58
+#: ../../../mess_skin.class.php:58
+msgid "Enter image URL to display a logo"
+msgstr ""
+
+#: ../../../_skin.class.php:66
+#: ../../../a_skin.class.php:64
+#: ../../../mess_skin.class.php:64
+msgid "Blog tagline"
+msgstr ""
+
+#: ../../../_skin.class.php:76
+#: ../../../a_skin.class.php:74
+#: ../../../mess_skin.class.php:74
+msgid "Layout"
+msgstr ""
+
+#: ../../../_skin.class.php:79
+#: ../../../a_skin.class.php:77
+#: ../../../mess_skin.class.php:77
+msgid "Skin color"
+msgstr ""
+
+#: ../../../_skin.class.php:83
+#: ../../../a_skin.class.php:81
+#: ../../../mess_skin.class.php:81
+msgid "Green"
+msgstr ""
+
+#: ../../../_skin.class.php:84
+#: ../../../a_skin.class.php:82
+#: ../../../mess_skin.class.php:82
+msgid "Blue"
+msgstr ""
+
+#: ../../../_skin.class.php:85
+#: ../../../a_skin.class.php:83
+#: ../../../mess_skin.class.php:83
+msgid "Red"
+msgstr ""
+
+#: ../../../_skin.class.php:86
+#: ../../../a_skin.class.php:84
+#: ../../../mess_skin.class.php:84
+msgid "Grey"
+msgstr ""
+
+#: ../../../_skin.class.php:91
+#: ../../../a_skin.class.php:89
+#: ../../../mess_skin.class.php:89
+msgid "Skin width"
+msgstr ""
+
+#: ../../../_skin.class.php:95
+#: ../../../a_skin.class.php:93
+#: ../../../mess_skin.class.php:93
+msgid "Fixed"
+msgstr ""
+
+#: ../../../_skin.class.php:96
+#: ../../../a_skin.class.php:94
+#: ../../../mess_skin.class.php:94
+msgid "Fluid"
+msgstr ""
+
+#: ../../../_skin.class.php:101
+#: ../../../a_skin.class.php:99
+#: ../../../mess_skin.class.php:99
+msgid "Skin layout"
+msgstr ""
+
+#: ../../../_skin.class.php:105
+#: ../../../a_skin.class.php:103
+#: ../../../mess_skin.class.php:103
+msgid "1 column"
+msgstr ""
+
+#: ../../../_skin.class.php:106
+#: ../../../a_skin.class.php:104
+#: ../../../mess_skin.class.php:104
+msgid "2 columns: Sidebar to the right"
+msgstr ""
+
+#: ../../../_skin.class.php:107
+#: ../../../a_skin.class.php:105
+#: ../../../mess_skin.class.php:105
+msgid "2 columns: Sidebar to the left"
+msgstr ""
+
+#: ../../../_skin.class.php:108
+#: ../../../a_skin.class.php:106
+#: ../../../mess_skin.class.php:106
+msgid "3 columns"
+msgstr ""
+
+#: ../../../_skin.class.php:109
+#: ../../../a_skin.class.php:107
+#: ../../../mess_skin.class.php:107
+msgid "3 columns: Sidebars to the right"
+msgstr ""
+
+#: ../../../_skin.class.php:110
+#: ../../../a_skin.class.php:108
+#: ../../../mess_skin.class.php:108
+msgid "3 columns: Sidebars to the left"
+msgstr ""
+
+#: ../../../_skin.class.php:115
+#: ../../../a_skin.class.php:113
+#: ../../../mess_skin.class.php:113
+msgid "Skin font"
+msgstr ""
+
+#: ../../../_skin.class.php:131
+#: ../../../a_skin.class.php:129
+#: ../../../mess_skin.class.php:129
+msgid "Tabbed widget settings"
+msgstr ""
+
+#: ../../../_skin.class.php:134
+#: ../../../a_skin.class.php:132
+#: ../../../mess_skin.class.php:132
+msgid "Tabbed widget"
+msgstr ""
+
+#: ../../../_skin.class.php:135
+#: ../../../a_skin.class.php:133
+#: ../../../mess_skin.class.php:133
+msgid "Display javascript tabbed widget on the sidebar"
+msgstr ""
+
+#: ../../../_skin.class.php:140
+#: ../../../_skin.class.php:598
+#: ../../../a_skin.class.php:138
+#: ../../../a_skin.class.php:565
+#: ../../../mess_skin.class.php:138
+#: ../../../mess_skin.class.php:565
+msgid "Recent comments"
+msgstr ""
+
+#: ../../../_skin.class.php:141
+#: ../../../a_skin.class.php:139
+#: ../../../mess_skin.class.php:139
+msgid "The number of recent comments"
+msgstr ""
+
+#: ../../../_skin.class.php:147
+#: ../../../_skin.class.php:600
+#: ../../../a_skin.class.php:145
+#: ../../../a_skin.class.php:567
+#: ../../../mess_skin.class.php:145
+#: ../../../mess_skin.class.php:567
+msgid "Popular posts"
+msgstr ""
+
+#: ../../../_skin.class.php:148
+#: ../../../a_skin.class.php:146
+#: ../../../mess_skin.class.php:146
+msgid "The number of popular posts"
+msgstr ""
+
+#: ../../../_skin.class.php:154
+#: ../../../_skin.class.php:602
+#: ../../../a_skin.class.php:152
+#: ../../../a_skin.class.php:569
+#: ../../../mess_skin.class.php:152
+#: ../../../mess_skin.class.php:569
+msgid "Archives"
+msgstr ""
+
+#: ../../../_skin.class.php:155
+#: ../../../a_skin.class.php:153
+#: ../../../mess_skin.class.php:153
+msgid "The number of months in archive"
+msgstr ""
+
+#: ../../../_skin.class.php:162
+#: ../../../a_skin.class.php:160
+#: ../../../mess_skin.class.php:160
+msgid "The number of tags"
+msgstr ""
+
+#: ../../../_skin.class.php:172
+#: ../../../a_skin.class.php:170
+#: ../../../mess_skin.class.php:170
+msgid "Misc settings"
+msgstr ""
+
+#: ../../../_skin.class.php:175
+#: ../../../a_skin.class.php:173
+#: ../../../mess_skin.class.php:173
+msgid "Related posts"
+msgstr ""
+
+#: ../../../_skin.class.php:176
+#: ../../../a_skin.class.php:174
+#: ../../../mess_skin.class.php:174
+msgid "The number of related articles in single post mode"
+msgstr ""
+
+#: ../../../_skin.class.php:182
+#: ../../../a_skin.class.php:180
+#: ../../../mess_skin.class.php:180
+msgid "Twitter widget"
+msgstr ""
+
+#: ../../../_skin.class.php:183
+#: ../../../a_skin.class.php:181
+#: ../../../mess_skin.class.php:181
+msgid "The number of items in \"My latest tweets\" widget. Select 0 to disable."
+msgstr ""
+
+#: ../../../_skin.class.php:193
+#: ../../../a_skin.class.php:219
+#: ../../../mess_skin.class.php:219
+msgid "Enable/disable features"
+msgstr ""
+
+#: ../../../_skin.class.php:196
+msgid "FancyBox Helper"
+msgstr ""
+
+#: ../../../_skin.class.php:197
+msgid "See <a href=\""
+msgstr ""
+
+#: ../../../_skin.class.php:202
+#: ../../../a_skin.class.php:222
+#: ../../../mess_skin.class.php:222
+msgid "Post metadata"
+msgstr ""
+
+#: ../../../_skin.class.php:203
+#: ../../../a_skin.class.php:223
+#: ../../../mess_skin.class.php:223
+msgid "Display post metadata block in single post mode"
+msgstr ""
+
+#: ../../../_skin.class.php:208
+#: ../../../a_skin.class.php:228
+#: ../../../mess_skin.class.php:228
+msgid "Author avatar (list)"
+msgstr ""
+
+#: ../../../_skin.class.php:209
+#: ../../../a_skin.class.php:229
+#: ../../../mess_skin.class.php:229
+msgid "Display author avatar next to post title in <u>post list mode</u>"
+msgstr ""
+
+#: ../../../_skin.class.php:214
+#: ../../../a_skin.class.php:234
+#: ../../../mess_skin.class.php:234
+msgid "Author avatar (single)"
+msgstr ""
+
+#: ../../../_skin.class.php:215
+#: ../../../a_skin.class.php:235
+#: ../../../mess_skin.class.php:235
+msgid "Display author avatar next to post title in <u>single post mode</u>"
+msgstr ""
+
+#: ../../../_skin.class.php:220
+#: ../../../a_skin.class.php:240
+#: ../../../mess_skin.class.php:240
+msgid "Display thumbshots"
+msgstr ""
+
+#: ../../../_skin.class.php:221
+#: ../../../a_skin.class.php:241
+#: ../../../mess_skin.class.php:241
+msgid "Display website previews on external post links."
+msgstr ""
+
+#: ../../../_skin.class.php:227
+#: ../../../a_skin.class.php:247
+#: ../../../mess_skin.class.php:247
+msgid "Display footer credits"
+msgstr ""
+
+#: ../../../_skin.class.php:228
+#: ../../../a_skin.class.php:248
+#: ../../../mess_skin.class.php:248
+msgid "You get this skin for free. We do appreciate you giving us credit. <b>Thank you for your support!</b>"
+msgstr ""
+
+#: ../../../_skin.class.php:237
+#: ../../../a_skin.class.php:257
+#: ../../../mess_skin.class.php:257
+msgid "Social buttons"
+msgstr ""
+
+#: ../../../_skin.class.php:240
+#: ../../../a_skin.class.php:260
+#: ../../../mess_skin.class.php:260
+msgid "Facebook"
+msgstr ""
+
+#: ../../../_skin.class.php:241
+#: ../../../_skin.class.php:248
+#: ../../../_skin.class.php:254
+#: ../../../_skin.class.php:260
+#: ../../../_skin.class.php:266
+#: ../../../_skin.class.php:273
+#: ../../../a_skin.class.php:261
+#: ../../../a_skin.class.php:268
+#: ../../../a_skin.class.php:274
+#: ../../../a_skin.class.php:280
+#: ../../../a_skin.class.php:286
+#: ../../../a_skin.class.php:293
+#: ../../../mess_skin.class.php:261
+#: ../../../mess_skin.class.php:268
+#: ../../../mess_skin.class.php:274
+#: ../../../mess_skin.class.php:280
+#: ../../../mess_skin.class.php:286
+#: ../../../mess_skin.class.php:293
+msgid "Username. Leave empty to hide the button"
+msgstr ""
+
+#: ../../../_skin.class.php:247
+#: ../../../a_skin.class.php:267
+#: ../../../mess_skin.class.php:267
+msgid "Flickr"
+msgstr ""
+
+#: ../../../_skin.class.php:253
+#: ../../../a_skin.class.php:273
+#: ../../../mess_skin.class.php:273
+msgid "Myspace"
+msgstr ""
+
+#: ../../../_skin.class.php:259
+#: ../../../a_skin.class.php:279
+#: ../../../mess_skin.class.php:279
+msgid "LinkedIn"
+msgstr ""
+
+#: ../../../_skin.class.php:265
+#: ../../../a_skin.class.php:285
+#: ../../../mess_skin.class.php:285
+msgid "Twitter"
+msgstr ""
+
+#: ../../../_skin.class.php:272
+#: ../../../a_skin.class.php:292
+#: ../../../mess_skin.class.php:292
+msgid "Youtube"
+msgstr ""
+
+#: ../../../_skin.class.php:283
+#: ../../../a_skin.class.php:303
+#: ../../../mess_skin.class.php:303
+msgid "Updates"
+msgstr ""
+
+#: ../../../_skin.class.php:456
+msgid "My latest tweets"
+msgstr ""
+
+#: ../../../_skin.class.php:484
+msgid "Follow me on Twitter!"
+msgstr ""
+
+#: ../../../_skin.class.php:719
+#: ../../../a_skin.class.php:686
+#: ../../../mess_skin.class.php:686
+msgid "Footer"
+msgstr ""
+
+#: ../../../_skin.class.php:776
+#: ../../../a_skin.class.php:743
+#: ../../../mess_skin.class.php:743
+msgid "Share this post!"
+msgstr ""
+
+#: ../../../_skin.class.php:888
+msgid "No related Links yet"
+msgstr ""
+
+#: ../../../_skin.class.php:889
+#: ../../../a_skin.class.php:804
+#: ../../../mess_skin.class.php:804
+msgid "No related posts yet"
+msgstr ""
+
+#: ../../../a_skin.class.php:187
+#: ../../../mess_skin.class.php:187
+msgid "Twitter consumer key"
+msgstr ""
+
+#: ../../../a_skin.class.php:188
+#: ../../../mess_skin.class.php:188
+msgid "Your Twitter App Consumer Key."
+msgstr ""
+
+#: ../../../a_skin.class.php:194
+#: ../../../mess_skin.class.php:194
+msgid "Twitter consumer secret"
+msgstr ""
+
+#: ../../../a_skin.class.php:195
+#: ../../../mess_skin.class.php:195
+msgid "Your Twitter App Consumer Secret."
+msgstr ""
+
+#: ../../../a_skin.class.php:201
+#: ../../../mess_skin.class.php:201
+msgid "Twitter user token"
+msgstr ""
+
+#: ../../../a_skin.class.php:202
+#: ../../../mess_skin.class.php:202
+msgid "Your Twitter App Access Token."
+msgstr ""
+
+#: ../../../a_skin.class.php:208
+#: ../../../mess_skin.class.php:208
+msgid "Twitter Token Secret"
+msgstr ""
+
+#: ../../../a_skin.class.php:209
+#: ../../../mess_skin.class.php:209
+msgid "Your Twitter App Access Token Secret."
+msgstr ""
+
+#: ../../../index.main.php:50
+msgid "Page Top"
+msgstr ""
+
+#: ../../../index.main.php:64
+msgid "View RSS Feed"
+msgstr ""
+
+#: ../../../index.main.php:68
+msgid "Follow me on Twitter"
+msgstr ""
+
+#: ../../../index.main.php:72
+msgid "Find me on Flickr"
+msgstr ""
+
+#: ../../../index.main.php:76
+msgid "Find me on Facebook"
+msgstr ""
+
+#: ../../../index.main.php:80
+msgid "Find me on MySpace"
+msgstr ""
+
+#: ../../../index.main.php:84
+msgid "Follow me on LinkedIn"
+msgstr ""
+
+#: ../../../index.main.php:88
+msgid "Follow me on Youtube"
+msgstr ""
+
+#: ../../../index.main.php:98
+#: ../../../index.main.php:113
+msgid "Home"
+msgstr ""
+
+#: ../../../index.main.php:102
+msgid "Menu"
+msgstr ""
+
+#: ../../../index.main.php:220
+msgid "Sidebar 2"
+msgstr ""
+
+#: ../../../index.main.php:258
+msgid "Search"
+msgstr ""
+
+#: ../../../index.main.php:279
+msgid "Sidebar"
+msgstr ""
+
+#: ../../../index.main.php:313
+msgid "After posts"
+msgstr ""
+
+#: ../../../locales/es_ES/es-ES.locale.php:13
+msgid "Spanish (ES)"
+msgstr ""
+
+#: ../../../locales/pt_BR/pt-BR.locale.php:13
+msgid "Portuguese (PT)"
+msgstr ""
+
+#: ../../../locales/ru_RU/ru-RU.locale.php:13
+msgid "Russian (RU) utf8"
+msgstr ""

@@ -1,0 +1,428 @@
+# b2evolution - Language file
+# Copyright (C) YEAR Francois PLANQUE
+# This file is distributed under the same license as the b2evolution package.
+# Sergio Lima <oigreslima@gmail.com>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Mystique skin\n"
+"Report-Msgid-Bugs-To: http://fplanque.net/\n"
+"POT-Creation-Date: 2011-06-06 15:44-0400\n"
+"PO-Revision-Date: 2011-06-30 09:29-0500\n"
+"Last-Translator: Alex\n"
+"Language-Team: Brazilian Portuguese b2evolution\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Brazilian Portuguese\n"
+"X-Poedit-Country: BRAZIL\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11) ? 0 : ((n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20)) ? 1 : 2);\n"
+"X-Poedit-SearchPath-0: X:\\web\\b2evolution\\b2evolution\n"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\index.main.php:50
+msgid "Page Top"
+msgstr "Topo"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\index.main.php:93
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\index.main.php:108
+msgid "Home"
+msgstr "Principal"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\index.main.php:97
+msgid "Menu"
+msgstr "Menu"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\index.main.php:215
+msgid "Sidebar 2"
+msgstr "Coluna Lateral 2"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\index.main.php:253
+msgid "Search"
+msgstr "Pesquisa"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\index.main.php:273
+msgid "Sidebar"
+msgstr "Coluna Lateral"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\index.main.php:307
+msgid "After posts"
+msgstr "Após Entradas"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_item_block.inc.php:99
+msgid "Posted by"
+msgstr "Publicado por:"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_item_block.inc.php:105
+msgid "in"
+msgstr "em"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_item_block.inc.php:118
+msgid "No comments"
+msgstr "Sem Comentários"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_item_block.inc.php:122
+msgid "comment"
+msgstr "comentário"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_item_block.inc.php:122
+msgid "comments"
+msgstr "Comentários"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_item_block.inc.php:137
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_skin.class.php:158
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_skin.class.php:557
+msgid "Tags"
+msgstr "Etiquetas/Tags"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_item_block.inc.php:147
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_skin.class.php:559
+msgid "Categories"
+msgstr "Categorias"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_item_block.inc.php:161
+msgid "Print article"
+msgstr "Imprimir artigo"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_item_block.inc.php:164
+#, php-format
+msgid "This %1$s was posted by %2$s on %3$s at %4$s. Follow any responses to this post through %5$s."
+msgstr "Esta %1$s foi publicado por %2$s, em %3$s, às %4$s. Acompanhe as conversações para esta entrada via %5$s."
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_item_block.inc.php:165
+msgid "entry"
+msgstr "entrada"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_item_block.inc.php:166
+msgid "Posts by"
+msgstr "Artigos de:"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_item_block.inc.php:182
+msgid "Post bottom"
+msgstr "Botão Publicar"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_item_comment.inc.php:46
+msgid "Trackback"
+msgstr "Тrackbck"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_item_comment.inc.php:46
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_item_comment.inc.php:50
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_item_comment.inc.php:54
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_item_comment.inc.php:65
+msgid "from:"
+msgstr "de:"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_item_comment.inc.php:50
+msgid "Pingback"
+msgstr "Pingback"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_item_comment.inc.php:54
+msgid "Linkback"
+msgstr "Linkback"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_item_comment.inc.php:60
+msgid "PREVIEW Comment from:"
+msgstr "Previsualizar comentário de:"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_item_comment.inc.php:65
+msgid "Comment"
+msgstr "Comentário"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_item_comment.inc.php:83
+msgid "Send email to comment author"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_item_feedback.inc.php:75
+msgid "Attending this event"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_item_feedback.inc.php:105
+msgid "Related Posts"
+msgstr "Artigos Relacionados"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_item_feedback.inc.php:137
+msgid "Trackbacks"
+msgstr "Тrackbacks"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_item_feedback.inc.php:143
+msgid "Comments"
+msgstr "Comentários"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_item_feedback.inc.php:183
+msgid "Feedback awaiting moderation"
+msgstr "Comentário aguardando moderação"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_item_feedback.inc.php:191
+msgid "No feedback yet"
+msgstr "Ainda sem comentário"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_item_feedback.inc.php:206
+#, php-format
+msgid "This post has 1 feedback awaiting moderation... %s"
+msgstr "Este texto tem 1 comentário aguardando moderação.. %s"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_item_feedback.inc.php:207
+#, php-format
+msgid "This post has %d feedbacks awaiting moderation... %s"
+msgstr "Este texto tem %d comentários aguardando moderação... %s"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_item_feedback.inc.php:226
+msgid "Trackback address for this post"
+msgstr "Endereço de trackback para este texto"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_skin.class.php:56
+msgid "Blog title"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_skin.class.php:57
+msgid "Enter image URL to display a logo"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_skin.class.php:63
+msgid "Blog tagline"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_skin.class.php:73
+msgid "Layout"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_skin.class.php:76
+msgid "Skin color"
+msgstr "Cor da Skin"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_skin.class.php:80
+msgid "Green"
+msgstr "Verde"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_skin.class.php:81
+msgid "Blue"
+msgstr "Azul"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_skin.class.php:82
+msgid "Red"
+msgstr "Vermelho"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_skin.class.php:83
+msgid "Grey"
+msgstr "Сinza"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_skin.class.php:88
+msgid "Skin width"
+msgstr "Largura da Skin"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_skin.class.php:92
+msgid "Fixed"
+msgstr "Fixa"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_skin.class.php:93
+msgid "Fluid"
+msgstr "Fluida"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_skin.class.php:98
+msgid "Skin layout"
+msgstr "Aparência da Skin"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_skin.class.php:102
+msgid "1 column"
+msgstr "1 coluna"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_skin.class.php:103
+msgid "2 columns: Sidebar to the right"
+msgstr "2 colunas: Menu lateral à direita"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_skin.class.php:104
+msgid "2 columns: Sidebar to the left"
+msgstr "2 colunas: Menu lateral à esquerda"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_skin.class.php:105
+msgid "3 columns"
+msgstr "3 colunas"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_skin.class.php:106
+msgid "3 columns: Sidebars to the right"
+msgstr "3 colunas: Menus laterais à direita"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_skin.class.php:107
+msgid "3 columns: Sidebars to the left"
+msgstr "3  colunas: Menus laterais à esquerda"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_skin.class.php:112
+msgid "Skin font"
+msgstr "Fonte da Skin"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_skin.class.php:128
+msgid "Tabbed widget settings"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_skin.class.php:131
+msgid "Tabbed widget"
+msgstr "Aba do widget"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_skin.class.php:132
+msgid "Display javascript tabbed widget on the sidebar"
+msgstr "Mostra javascript das abas de widget no menu lateral"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_skin.class.php:137
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_skin.class.php:551
+msgid "Recent comments"
+msgstr "Comentários Recentes"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_skin.class.php:138
+msgid "The number of recent comments"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_skin.class.php:144
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_skin.class.php:553
+msgid "Popular posts"
+msgstr "Artigos Populares"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_skin.class.php:145
+msgid "The number of popular posts"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_skin.class.php:151
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_skin.class.php:555
+msgid "Archives"
+msgstr "Аrquivos"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_skin.class.php:152
+msgid "The number of months in archive"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_skin.class.php:159
+msgid "The number of tags"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_skin.class.php:169
+msgid "Misc settings"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_skin.class.php:172
+#, fuzzy
+msgid "Related posts"
+msgstr "Artigos Relacionados"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_skin.class.php:173
+msgid "The number of related articles in single post mode"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_skin.class.php:179
+msgid "Twitter widget"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_skin.class.php:180
+msgid "The number of items in \"My latest tweets\" widget. Select 0 to disable."
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_skin.class.php:190
+msgid "Enable/disable features"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_skin.class.php:193
+msgid "Post metadata"
+msgstr "Metadados do artigo"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_skin.class.php:194
+msgid "Display post metadata block in single post mode"
+msgstr "Mostra bloco de metadados do artigo no modo de texto único"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_skin.class.php:199
+msgid "Author avatar (list)"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_skin.class.php:200
+msgid "Display author avatar next to post title in <em>post list mode</em>"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_skin.class.php:205
+msgid "Author avatar (single)"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_skin.class.php:206
+#, fuzzy
+msgid "Display author avatar next to post title in <em>single post mode</em>"
+msgstr "Mostra bloco de metadados do artigo no modo de texto único"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_skin.class.php:211
+msgid "Display thumbshots"
+msgstr "Mostra Thumbshots"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_skin.class.php:212
+msgid "Display website previews on external post links."
+msgstr "Mostra previsualização do blogue em links externos"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_skin.class.php:218
+msgid "Display footer credits"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_skin.class.php:219
+msgid "You get this skin for free. We do appreciate you giving us credit. <b>Thank you for your support!</b>"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_skin.class.php:228
+msgid "Social buttons"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_skin.class.php:231
+msgid "Facebook"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_skin.class.php:232
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_skin.class.php:239
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_skin.class.php:245
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_skin.class.php:251
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_skin.class.php:257
+msgid "Username. Leave empty to hide the button"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_skin.class.php:238
+msgid "Flickr"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_skin.class.php:244
+msgid "Myspace"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_skin.class.php:250
+msgid "LinkedIn"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_skin.class.php:256
+msgid "Twitter"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_skin.class.php:411
+msgid "My latest tweets"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_skin.class.php:425
+msgid "Loading tweets..."
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_skin.class.php:437
+msgid "Follow me on Twitter!"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_skin.class.php:672
+msgid "Footer"
+msgstr "Rodapé"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_skin.class.php:729
+msgid "Share this post!"
+msgstr "Compartilhe este Artigo!"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\_skin.class.php:790
+msgid "No related posts yet"
+msgstr "Sem artigos Relacionados"
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\locales\pt_BR\pt-BR.locale.php:13
+msgid "Portuguese (PT)"
+msgstr ""
+
+#: D:\xampp\htdocs\b2evolution\b2evolution\blogs\skins\mystique\locales\ru_RU\ru-RU.locale.php:13
+msgid "Russian (RU) utf8"
+msgstr ""
+
+#~ msgid "Twitter user name"
+#~ msgstr "Nome de usuário do Twitter"
+
