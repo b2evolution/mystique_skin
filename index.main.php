@@ -29,7 +29,21 @@ global $s, $ReqURI;
   <!-- header -->
   <div class="page-content header-wrapper">
     <div id="header" class="bubbleTrigger">
-      <div id="site-title" class="clearfix">
+	
+	<ul class="blog-list">
+      <?php
+		skin_container( NT_('Page Top'), array(
+				'block_start' => '',
+				'block_end' => '',
+				'block_display_title' => false,
+				'list_start' => '',
+				'list_end' => '',
+				'item_start' => '<li>',
+				'item_end' => '</li>',
+			) );
+		?>
+	</ul>
+    <div id="site-title" class="clearfix">
 	  <?php
 		if( $blog_name = $Skin->get_setting('blog_name') )
 		{
@@ -45,18 +59,7 @@ global $s, $ReqURI;
 			echo '<p class="headline">'.$Skin->get_setting('blog_tagline').'</p>';
 		}
 	  ?>
-      </div>
-      <?php
-		skin_container( NT_('Page Top'), array(
-				'block_start' => '',
-				'block_end' => '',
-				'block_display_title' => false,
-				'list_start' => '<ul class="blog-list">',
-				'list_end' => '</ul>',
-				'item_start' => '<li>',
-				'item_end' => '</li>',
-			) );
-		?>
+    </div>
       <div class="shadow-left">
         <div class="shadow-right clearfix">
           <p class="nav-extra">

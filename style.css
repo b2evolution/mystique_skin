@@ -474,7 +474,6 @@ form.bComment div.input label { font-size:12px }
 .comment_form_title, .comment_section_title {display:block;margin:5px 0 10px 0;padding:2px 15px 5px 0;text-transform:uppercase;font-style:italic;font-size:115%;background-color:#fff;border-top:1px solid #ddd; font-weight:normal; font-weight:bold}
 .comment_form_title { margin-top:20px }
 .feedback_feed_msg {  }
-.comment_rating { float:right; margin:14px 14px 0 0; background:#fff; border:1px #999 solid; padding:4px }
 .trackback_url { margin-bottom:20px }
 .trackback_url code { border:1px solid #CCC; background:#F3F3F3; padding:5px; overflow:hidden; color:#333 }
 .edit_toolbar { margin:10px 0; text-align:center }
@@ -1147,4 +1146,9 @@ div#evo_toolbar span.icon {
   display: inline-block !important;
   overflow: hidden;
   vertical-align: top;
+}
+
+/* Comment form fixes */
+textarea.form_textarea_input {
+  max-width: 97%;
 }
