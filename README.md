@@ -15,6 +15,10 @@
 <img src="screenshots/mystique-entire_page-main.png">
 <img src="screenshots/mystique-single.png">
 
+<h4>v2.1.1</h4>
+<ul>
+	<li>Fixed compatibility issues with version 6.6+.</li>
+</ul>
 <h4>v2.1.0</h4>
 <ul>
 	<li>"Popular" tab removed from sidebar widget due to Item::$views is not available any more</li>
