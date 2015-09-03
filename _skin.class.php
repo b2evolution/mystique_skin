@@ -435,7 +435,7 @@ class mystique_Skin extends Skin
 			})');
 		}
 		
-		add_css_headline(' * {font-family: '.$this->get_setting('skin_font').'}' );
+		add_css_headline(' #page {font-family: '.$this->get_setting('skin_font').'}' );
 		require_css( 'resources/color-'.$this->get_setting('skin_color').'.css', true );
 
 		// call parent:

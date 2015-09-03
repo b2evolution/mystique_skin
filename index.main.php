@@ -19,8 +19,15 @@ if( version_compare( $app_version, '3.0' ) < 0 )
 // Do inits depending on current $disp:
 skin_init( $disp );
 
-// HTML HEADER INCLUDED HERE
-skin_include( '_html_header.inc.php' );
+// -------------------------- HTML HEADER INCLUDED HERE --------------------------
+skin_include( '_html_header.inc.php', array() );
+// -------------------------------- END OF HEADER --------------------------------
+
+
+// ---------------------------- SITE HEADER INCLUDED HERE ----------------------------
+// If site headers are enabled, they will be included here:
+siteskin_include( '_site_body_header.inc.php' );
+// ------------------------------- END OF SITE HEADER --------------------------------
 
 global $s, $ReqURI;
 
