@@ -19,8 +19,6 @@
 <ul>
 	<li>Sitewide_header included for easier multibloging experience</li>
 </ul>
-<h4>v2.1.0</h4>
-<ul>
 <h4>v2.1.1</h4>
 <ul>
 	<li>Fixed compatibility issues with version 6.6+.</li>
