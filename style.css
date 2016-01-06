@@ -1152,3 +1152,7 @@ div#evo_toolbar span.icon {
 textarea.form_textarea_input {
   max-width: 97%;
 }
+
+#instance-sidebartabswidget-section-categories ul ul {
+  margin-left: 19px;
+}
