@@ -15,7 +15,7 @@ if( !defined('EVO_MAIN_INIT') ) die( 'Please, do not access this page directly.'
  */
 class mystique_Skin extends Skin
 {
-	var $version = '2.1.1';
+	var $version = '2.1.3';
 	
 	
 	/**

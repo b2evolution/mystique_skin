@@ -15,6 +15,10 @@
 <img src="screenshots/mystique-entire_page-main.png">
 <img src="screenshots/mystique-single.png">
 
+<h4>v2.1.3</h4>
+<ul>
+	<li>Indentation for categories on the sidebar widget</li>
+</ul>
 <h4>v2.1.2</h4>
 <ul>
 	<li>Sitewide_header included for easier multibloging experience</li>
